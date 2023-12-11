@@ -4,55 +4,79 @@
   box-sizing: border-box;
 }
 
-body {
-  display: grid;
-  grid-template-areas: "menu" "cabecera" "cabecera" "cabecera" "footer" "footer" "footer" "footer";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/*estilos generales*/
 header {
-  background-color: violet;
+  background-color: orange;
   width: 100%;
-  height: 100px;
-  grid-area: cabecera;
+  height: 120px;
 }
 
 .menu-lateral {
-  width: 100px;
-  height: 100vh;
-  background-image: linear-gradient(rgb(141, 1, 141), rgb(141, 1, 141), rgb(43, 0, 255));
-  grid-area: menu;
+  position: fixed;
+  background-color: blue;
+  width: 120px;
+  height: 100%;
 }
 .menu-lateral nav {
-  padding: 5px;
   width: 100%;
   height: 100%;
 }
 .menu-lateral nav ul {
-  padding: 5px;
   list-style-type: none;
   width: 100%;
-  height: 100%;
+  height: 85%;
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
-  align-items: start;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .menu-lateral nav ul li {
   padding: 5px;
-  border-radius: 6px;
-  box-shadow: 2px 3px 3px;
-  margin: 5px;
+  border: solid 1px gray;
+  border-radius: 9px;
+  box-shadow: 2px 4px 3px;
 }
 .menu-lateral nav ul li a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
 
-footer {
-  grid-area: footer;
+main {
+  margin: 0 0 0 120px;
+  grid-area: main;
+  background-color: green;
+}
+main .caja-seccion {
+  background-color: beige;
+  margin: 15px 60px 0 60px;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 2px 5px 9px;
+}
+main .proyecto-principal {
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+main .proyecto-principal .texto {
+  width: 60%;
+  padding: 10px;
+}
+main .proyecto-principal .imagen {
+  width: 40%;
+  display: flex;
+  justify-content: right;
+}
+main .proyecto-principal .imagen a img {
   width: 100%;
   height: 100%;
-  background-color: gray;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
