@@ -12,31 +12,42 @@
 
 /*estilos generales*/
 header {
-  background-color: orange;
+  background: transparent;
   width: 100%;
-  height: 120px;
+  height: 100px;
 }
 
 .menu-lateral {
   position: fixed;
-  background-color: blue;
+  background: linear-gradient(#490665, #d500ba);
   width: 120px;
   height: 100%;
 }
 .menu-lateral nav {
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-lateral nav img {
+  width: 100px;
+  height: 100px;
+  border-radius: 40%;
+  margin: 10px 0 0 0;
 }
 .menu-lateral nav ul {
   list-style-type: none;
   width: 100%;
-  height: 85%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 .menu-lateral nav ul li {
+  background: linear-gradient(#671a86, rgb(32, 32, 32));
   padding: 5px;
   border: solid 1px gray;
   border-radius: 9px;
@@ -48,28 +59,33 @@ header {
 }
 
 main {
-  margin: 0 0 0 120px;
-  grid-area: main;
-  background-color: green;
+  margin: 0 0 0 100px;
+  background-image: url("/media/img/fondo-1.jpg");
 }
 main .caja-seccion {
-  background-color: beige;
   margin: 15px 60px 0 60px;
   border-radius: 20px;
   padding: 10px;
   box-shadow: 2px 5px 9px;
+  background-color: #e0dfe2;
+  transition: 0.5s;
 }
 main .proyecto-principal {
-  height: 250px;
+  height: 310px;
   display: flex;
-  justify-content: space-evenly;
+  background: linear-gradient(#490665, #d500ba);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 main .proyecto-principal .texto {
-  width: 60%;
+  width: 28%;
+  height: 100%;
   padding: 10px;
+  color: white;
 }
 main .proyecto-principal .imagen {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: right;
 }
@@ -77,6 +93,101 @@ main .proyecto-principal .imagen a img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+main .mis-lenguajes {
+  background: rgba(0, 0, 0, 0.3);
+}
+main .mis-lenguajes h2 {
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+main .mis-lenguajes .caja-lenguajes {
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+main .mis-lenguajes .caja-lenguajes .html,
+main .mis-lenguajes .caja-lenguajes .css,
+main .mis-lenguajes .caja-lenguajes .javascript {
+  width: 30%;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .mis-lenguajes .caja-lenguajes .html img,
+main .mis-lenguajes .caja-lenguajes .css img,
+main .mis-lenguajes .caja-lenguajes .javascript img {
+  width: 120px;
+}
+main .mis-lenguajes .caja-lenguajes .html p,
+main .mis-lenguajes .caja-lenguajes .css p,
+main .mis-lenguajes .caja-lenguajes .javascript p {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+main .mis-lenguajes .caja-lenguajes .html img {
+  width: 160px;
+}
+main .lo-que-me-hace-diferente {
+  background: linear-gradient(#490665, #d500ba);
+  height: 200px;
+  padding: 15px;
+}
+main .lo-que-me-hace-diferente .contenedor-listas {
+  padding: 15px;
+  display: flex;
+}
+main .lo-que-me-hace-diferente h2,
+main .lo-que-me-hace-diferente li,
+main .lo-que-me-hace-diferente p {
+  color: white;
+}
+main .mis-proyectos {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+main .mis-proyectos h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+main .mis-proyectos .contenedor-proyectos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .mis-proyectos .contenedor-proyectos .caja-proyectos {
+  padding: 10px;
+  width: 190px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+main .sobre-mi {
+  background: linear-gradient(#490665, #d500ba);
+}
+main .testimonios h2 {
+  text-align: center;
+}
+main .testimonios .caja-testimonios {
+  background-color: white;
+}
+main .contactos {
+  background: linear-gradient(#490665, #d500ba);
+}
+
+.caja-seccion:hover {
+  scale: 1.04;
+  transition: 0, 5s;
 }
 
 /*# sourceMappingURL=styles.css.map */
