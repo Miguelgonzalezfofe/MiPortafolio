@@ -81,7 +81,7 @@ main {
         margin: 15px 60px 0 60px;
         border-radius: 20px;
         padding: 10px;
-        box-shadow: 2px 5px 9px;
+        box-shadow: 1px 1px 20px $color-secundario-700;
         background-color: $color_cards;
         transition: 0.5s;
     }
@@ -89,7 +89,7 @@ main {
     .proyecto-principal {
         height: 310px;
         display: flex;
-        background: linear-gradient($color-secundario-950, $color-principal-700);
+        background: linear-gradient($color-secundario-tras-950, $color-principal-tras-700);
         flex-direction: row;
         align-items: center;
         justify-content: center;
@@ -118,7 +118,7 @@ main {
     }
 
     .mis-lenguajes {
-        background: rgba(0, 0, 0, 0.3);
+        background: $color-trasparente;
 
 
         h2 {
@@ -175,8 +175,8 @@ main {
         }
     }
 
-    .lo-que-me-hace-diferente {
-        background: linear-gradient($color-secundario-950, $color-principal-700);
+    .mi-Proceso {
+        background: $color-trasparente;
 
 
         height: 200px;
@@ -196,11 +196,12 @@ main {
     }
 
     .mis-proyectos {
-        background-color: rgba(0, 0, 0, 0.3);
+        background: $color-trasparente;
 
         h2 {
             text-align: center;
             margin-bottom: 15px;
+            color: white;
         }
 
         .contenedor-proyectos {
@@ -208,22 +209,34 @@ main {
             flex-direction: row;
             justify-content: space-around;
             flex-wrap: wrap;
-
+            
             .caja-proyectos {
+                color :white;
                 padding: 10px;
-                width: 190px;
-                border: 1px solid;
+                width: 290px;
+                height: 250px;
+                border: 1px solid $color-secundario-700;
                 border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    width: 160px;
+                    background-color: white;
+                }
             }
         }
     }
 
     .sobre-mi {
-        background: linear-gradient($color-secundario-950, $color-principal-700);
+        background: $color-trasparente;
 
     }
 
     .testimonios {
+        background: $color-trasparente;
         h2 {
             text-align: center
         }
@@ -235,7 +248,7 @@ main {
     }
 
     .contactos {
-        background: linear-gradient($color-secundario-950, $color-principal-700);
+        background: $color-trasparente;
 
     }
 
