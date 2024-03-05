@@ -15,6 +15,7 @@ body {
     margin: 10px auto;
     border: 1px solid;
     border-radius: 10px;
+    background-color: rgb(27, 21, 29);
 
     header {
         background: url("/media/img/fondo-1.jpg");
@@ -325,11 +326,31 @@ body {
             }
         }
 
-        .contacto {
+        footer {
             width: auto;
-            height: 200px;
+            height: auto;
             border: 1px solid;
 
+            .contacto{
+                width: 100%;
+                height: auto;
+                list-style-type:none;
+                display:flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                border: 1px solid;
+
+
+                li{
+                    padding: 5px;
+
+                    i{
+                        font-size: 30px;
+                    }
+                }
+
+                
+            }
         }
     }
 

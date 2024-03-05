@@ -13,6 +13,7 @@ body {
   margin: 10px auto;
   border: 1px solid;
   border-radius: 10px;
+  background-color: rgb(27, 21, 29);
   /* ESTILOS DEL CONTENIDO DE LA PAGINA */
 }
 body header {
@@ -255,10 +256,25 @@ body main .habilidades .habilidades-blandas {
   height: 100%;
   border: 1px solid;
 }
-body main .contacto {
+body main footer {
   width: auto;
-  height: 200px;
+  height: auto;
   border: 1px solid;
+}
+body main footer .contacto {
+  width: 100%;
+  height: auto;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid;
+}
+body main footer .contacto li {
+  padding: 5px;
+}
+body main footer .contacto li i {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
