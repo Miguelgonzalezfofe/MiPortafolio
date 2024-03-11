@@ -1,174 +1,93 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- META DATOS -->
-    <meta name="author" content="Miguel Gonzalez">
-    <meta name="description"
-        content="Portafolio de mis Poryectos y ejercicios de programacion realizados y lenguajes en aprendisaje">
-    <meta name="keywords"
-        content="Creacion de paginas web, Html, Css, JavaScript, Desarrollo, Desarrollo web, Programacion">
-    <!-- FACICON -->
-    <link rel="shortcut icon" href="./media/favicon/#" type="image/x-icon">
-    <!-- HOLA DE ESTILOS -->
-    <link rel="stylesheet" href="./css/styles.css">
-    <!-- enlacejava -->
-    <!-- TITULO DE PAGINA -->
-    <title>Miguel Gonzalez / INICIO </title>
-
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Document</title>
 </head>
-
 <body>
-
-    <aside class="menu-lateral">
-        <nav>
-            <img src="media/img/Foto-perfil.png" alt="logo">
-            <ul>
-                <!-- agregar los iciones  -->
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./paginas/Proyectos.html">Proyectos</a></li>
-                <li><a href="./paginas/lenguajes.html">Lenguajes</a></li>
-                <li><a href="./paginas/sobre-mi.html">Sobre mi</a></li>
+    <header class="menu container">
+        <nav class="navbar fixed-top <navbar-expand-lg navbar-dark bg-dark  navegacion" id="barraNavegacion">
+        <div class="container">
+            <div class="caja_img">
+                <img src="media/img/Foto-perfil.png" alt="img de perfil">
+            </div>
+            <h3>Miguel Gonzalez</h3>
+            <div class="enlaces">
+                <ul>
+                <li>
+                    <a href="#">Sobre mi</a>
+                </li>
+                <li>
+                    <a href="#">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#">Experiencia</a>
+                </li>
+                <li>
+                    <a href="#">Portafolio</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
             </ul>
+            </div>
+            
+
+        </div>
         </nav>
-    </aside>
+    </header>
+    <input type="checkbox" id="menu-desplegar">
+    <label for="menu-desplegar" class="menu-icon">&#9776;</label>
+    
     <main>
-        <header>
-            <!-- agragar primer h1 el mas importante -->
-        </header>
-        <section class="contenedo-cajas-seccion">
-            <div class="caja-seccion proyecto-principal">
-                <div class="texto">
-                    <h1>Como se crear una pagina web</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste excepturi molestiae repudiandae
-                        autem atque molestias corporis repellat reprehenderit aliquam officia facere laboriosam odio
-                        maxime, voluptates corrupti sunt sit rerum enim quis exercitationem accusantium nesciunt harum!
-                        Vitae saepe suscipit corrupti optio.</p>
-                </div>
-                <div class="imagen">
-                    <a href="#"> <img src="./media/img/Foto-perfil.png" alt="imagen Proyecto principal"></a>
-                </div>
-                <div class="texto">
-                    <h2>Como crear tu portafolio</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste excepturi molestiae repudiandae
-                        autem atque molestias corporis repellat reprehenderit aliquam officia facere laboriosam odio
-                        maxime, voluptates corrupti sunt sit rerum enim quis exercitationem accusantium nesciunt harum!
-                        Vitae saepe suscipit corrupti optio.</p>
-                </div>
-
-
-            </div>
-            <div class="caja-seccion mis-lenguajes">
-                <h2>Mis lenguajes</h2>
-                <div class="caja-lenguajes">
-                    <div class="html">
-                        <img src="media/img/HTML5_logo.png" alt="imagen de logo html">
-                        <p>Lenguaje Html orientado a la estructura de la pagina wbe</p>
-
-                    </div>
-                    </a>
-                    <div class="css">
-                        <img src="media/img/logo-css.png" alt="imagen de logo css">
-                        <p>Lenguaje Css oritentado a los estilos y diseño de una pagina web</p>
-                    </div>
-                    <div class="javascript">
-                        <img src="media/img/JavaScript_logo.png" alt="imagen de logo javascript">
-                        <p>lenguaje JavaScript oritnedo a la creacion de objetos y interaccion con el usuario</p>
-                    </div>
-
-
-
-                </div>
-            </div>
-            <div class="caja-seccion lo-que-me-hace-diferente">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, atque.</h2>
-                <div class="contenedor-listas">
+        <!-- una imagen de mi -->
+        <div class="container-sm presentacion">
+            <h2 class="h2"><span class="nombre">Miguel Gonzalez</span></h2>
+            <h3 class="h3">Desarrollador front End</h3>
+        </div>
+        <div class="container-sm sobre_Mi">
+            <!-- Cuales son mis objetivos-->
+            <h4>Sobre mi</h4>
+            <p>Deseo Convertirme en un programador de los Buenos de verdad con un trabajo remoto donde puedo incrementar mis habilidades y formarme como un profesional teniendo un ambiente de trabajo animado y que tenga quien pueda guiarme en crecimiento en la empresa como desarrollador </p>
+            <!-- algunos datos personales relevantes -->
+            <div class="trabajos">
+                <h4>Desarrollador Front End </h4>
+                <p>Creación de paginas responsivas que interactúen con el cliente utilizando JavaScript, Html, y Css  </p>
+                <div class="Datos_personales">
                     <ul>
-                        <li>Responsable</li>
-                        <li>cordial</li>
-                        <li>honesto</li>
-                        <li>puntual</li>
+                        <li>Fecha de nacimiento:<span>24 abril 1997</span> </li>
+                        <li>Teléfono: <span>11-6755-4915</span> </li>
+                        <li>email:<span>247mmgg@gmail.com</span> </li>
+                        <li>Ciudad:<span>Buenos aires Argentina</span> </li>
+                        <li>Nacionalidad:<span>Venezolana</span> </li>
+                        <li>disponibilidad:<span>full time</span> </li>
                     </ul>
-                    <ol>
-                        <li>cariñoso</li>
-                        <li>carnicero</li>
-                        <li>sueño</li>
-                        <li>noah</li>
-                    </ol>
                 </div>
-                <p>mis vivencias mis experiencias mas alla de la programacion mi proceso o recorrido mis gustos y mis
-                    forma de ver las cosas mi juicio propio mi esfuerzo en alcanzar mis metas etc</p>
+            </div>
+        </div>
 
+        <div class="skills">
+            <!-- una breve historia y muestra de cuales son las habilidades que poseo -->
+            <!-- html/css, JavaScript, Git  -->
+        </div>
 
-            </div>
-            <div class="caja-seccion mis-proyectos">
-                <h2>Mis paginas web</h2>
-                <div class="contenedor-proyectos">
-                    <!-- que Los proyecto ocupen el 80% del contenedor y que se puedan ir pasando por cada uno en carrusel
-                agregar los puntos para hacer referencia a cada uno  -->
-                    <div class="caja-proyectos">
-                        <h3>Granja Delicias</h3>
-                        <a href="#"><img src="#" alt="Proyecto 1"></a>
-                        <p>descripcion</p>
-                    </div>
-                    <div class="caja-proyectos">
-                        <h3>Katy Art Spa</h3>
-                        <a href="#"><img src="#" alt="Proyecto 2"></a>
-                        <p>descripcion</p>
-                    </div>
-                    <div class="caja-proyectos">
-                        <h3>Luz Suertuda</h3>
-                        <a href="#"><img src="#" alt="Proyecto 3"></a>
-                        <p>descripcion</p>
-                    </div>
-                </div>
-            </div>
-            <div class="caja-seccion sobre-mi">
-                <p>sobre mi</p>
-            </div>
-            <div class="caja-seccion testimonios">
-                <h2>Testimonios</h2>
-                <div class="contenedor-testimonio">
-                    <div class="caja-testimonios">
-                        <div class="imagen">
-                            <img src="#" alt="foto del perfil">
-                        </div>
-                        <p class="nombre">nombre</p>
-                        <p class="testimonio">testimonio</p>
-                    </div>
-                    <div class="caja-testimonios">
-                        <div class="imagen">
-                            <img src="#" alt="foto del perfil">
-                        </div>
-                        <p class="nombre">nombre</p>
-                        <p class="testimonio">testimonio</p>
-                    </div>
-                    <div class="caja-testimonios">
-                        <div class="imagen">
-                            <img src="#" alt="foto del perfil">
-                        </div>
-                        <p class="nombre">nombre</p>
-                        <p class="testimonio">testimonio</p>
-                    </div>
-                    <div class="caja-testimonios">
-                        <div class="imagen">
-                            <img src="#" alt="foto del perfil">
-                        </div>
-                        <p class="nombre">nombre</p>
-                        <p class="testimonio">testimonio</p>
-                    </div>
-                </div>
-            </div>
-            <div class="caja-seccion contactos">
-                <p>tik tok</p>
-                <p>tik tok</p>
-                <p>tik tok</p>
-                <p>tik tok</p>
-            </div>
-        </section>
+        <div class="experiencia">
+            <!-- proyectos Realizados y proyectos en procesos de creación -->
+        </div>
+
+        <div class="portafolio"></div>
+
+        <div class="contacto"></div>
     </main>
-</body>
+    <footer>
 
+    </footer>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+    <script src="index.js"></script>
+</body>
 </html>
