@@ -1,116 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    
+
     <title>Document</title>
 </head>
+
 <body>
     <header class="menu container">
         <nav class="navbar fixed-top <navbar-expand-lg navbar-dark bg-dark  navegacion" id="barraNavegacion">
-        <div class="container">
-            
-            <div class="caja_img">
-                <img src="media/img/Foto-perfil.png" alt="img de perfil">
-                <h3>Miguel Gonzalez</h3>
-            </div>
-            <div class="enlaces">
-                <ul>
-                <li>
-                    <a href="#">Sobre mi</a>
-                </li>
-                <li>
-                    <a href="#">Habilidades</a>
-                </li>
-                <li>
-                    <a href="#">Experiencia</a>
-                </li>
-                <li>
-                    <a href="#">Portafolio</a>
-                </li>
-                <li>
-                    <a href="#">Contacto</a>
-                </li>
-            </ul>
-            </div>
-            
+            <div class="container">
 
-        </div>
+                <div class="caja_img">
+                    <img src="media/img/Foto-perfil.png" alt="img de perfil">
+                    <h3>Miguel Gonzalez</h3>
+                </div>
+                <div class="enlaces">
+                    <ul>
+                        <li>
+                            <a href="#">Sobre mi</a>
+                        </li>
+                        <li>
+                            <a href="#">Habilidades</a>
+                        </li>
+                        <li>
+                            <a href="#">Experiencia</a>
+                        </li>
+                        <li>
+                            <a href="#">Portafolio</a>
+                        </li>
+                        <li>
+                            <a href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
         </nav>
     </header>
     <input type="checkbox" id="menu-desplegar">
     <label for="menu-desplegar" class="menu-icon">&#9776;</label>
-    
+
     <main>
-        <!-- una imagen de mi -->
-        <div class="container-sm presentacion">
-            <h2 class="h2"><span class="nombre">Miguel Gonzalez</span></h2>
-            <h3 class="h3">Desarrollador front End</h3>
-        </div>
         <div class=" container-sm img_presentacion">
             <img src="media/img/Foto-perfil.png" alt="">
-        </div>
-        <div class="container-sm sobre_Mi">
-            <!-- Cuales son mis objetivos-->
-            <h4>Sobre mi</h4>
-            <p>Deseo Convertirme en un programador de los Buenos de verdad con un trabajo remoto donde puedo incrementar mis habilidades y formarme como un profesional teniendo un ambiente de trabajo animado y que tenga quien pueda guiarme en crecimiento en la empresa como desarrollador </p>
-            <!-- algunos datos personales relevantes -->
-            <div class="mi_historia">
-                <h4>Mi historia</h4>
-                <p>Mi primer encuentro con la programación fue en el 2022, estaba en casa de cuarentena cuando un video de YouTube me llamo la atención hablaba sobre la PROGRAMACIÓN. siempre me gusto la tecnología y la computación y ese video me sorprendió, me cambio la vida descubrí que yo quería ser un programador. <p> comencé por mi mismo a investigar mas del tema y mi sed de aprender no tenia limite, mientras trabajaba soñaba como seria mi primer dia en un empresa de programador.</p> </p>
-                <p>Ahora me encuentro creando mi portafolio después de muchas horas de clases y practicas </p>
+            <div class="container-sm presentacion">
+                <h2 class="h2"><span class="nombre">Miguel Gonzalez</span></h2>
+                <h3 class="h3">Desarrollador Front End</h3>
             </div>
-            <div class="trabajos">
-                <h4>Desarrollador Front End </h4>
-                <p>Creación de paginas responsivas que interactúen con el cliente utilizando JavaScript, Html, y Css  </p>
+        </div>
+        <!-- una imagen de mi -->
+
+
+        <div class="container-sm QuienSoy row">
+            <!-- Cuales son mis objetivos-->
+            <div class="sobre_Mi col-md">
+                <h4>Sobre mi</h4>
+                <p>Deseo Convertirme en un programador de los Buenos de verdad con un trabajo remoto donde puedo
+                    incrementar
+                    mis habilidades y formarme como un profesional teniendo un ambiente de trabajo animado y que tenga
+                    quien
+                    pueda guiarme en crecimiento en la empresa como desarrollador </p>
+                <!-- algunos datos personales relevantes -->
                 <div class="Datos_personales">
+                    <h5>Mis Datos</h5>
                     <ul>
-                        <li>Fecha de nacimiento:<span>24 abril 1997</span> </li>
+                        <li>Fecha de nacimiento: <span>24 abril 1997</span> </li>
                         <li>Teléfono: <span>11-6755-4915</span> </li>
-                        <li>email:<span>247mmgg@gmail.com</span> </li>
-                        <li>Ciudad:<span>Buenos aires Argentina</span> </li>
-                        <li>Nacionalidad:<span>Venezolana</span> </li>
-                        <li>disponibilidad:<span>full time</span> </li>
+                        <li>Email: <span>247mmgg@gmail.com</span> </li>
+                        <li>Ciudad: <span>Buenos aires Argentina</span> </li>
+                        <li>Nacionalidad: <span>Venezolana</span> </li>
+                        <li>disponibilidad: <span>full time</span> </li>
                     </ul>
                 </div>
             </div>
+
+            <div class="mi_historia col-md">
+                <h4>Mi historia</h4>
+                <p>Mi primer encuentro con la programación fue en el 2022, estaba en casa de cuarentena cuando un video
+                    de YouTube me llamo la atención hablaba sobre la PROGRAMACIÓN. siempre me gusto la tecnología y la
+                    computación y ese video me sorprendió, me cambio la vida descubrí que yo quería ser un programador.
+                <p> comencé por mi mismo a investigar mas del tema y mi sed de aprender no tenia limite, mientras
+                    trabajaba soñaba como seria mi primer dia en un empresa de programador.</p>
+                </p>
+                <p>Ahora me encuentro creando mi portafolio después de muchas horas de clases y practicas </p>
+            </div>
         </div>
 
-        <div class=" container-sm skills">
-            <h4>Habilidades</h4>
-            <p>Mis primeros pasos fueron YouTube buscado que es lo que tenia que aprender me centre en lo básico para ir avanzando y desarrollar mis habilidades duras y blandas, asi comprender como funciona el mundo de la programación</p>
-            <ul>
-                <li>
-                    <p>Html</p>
-                </li>
-                <li>
-                    <p>Css</p>
-                </li>
-                <li>
-                    <p>Sass</p>
-                </li>
-                <li>
-                    <p>JavaScript</p>
-                </li>
-                <li>
-                    <p>Git</p>
-                </li>
-                <li>
-                    <p>React</p>
-                </li>
-                <li>
-                    <p>typescript</p>
-                </li>
-                <li>
-                    <p>Sql</p>
-                </li>
-                <li>
-                    <p>node.js</p>
-                </li>
-            </ul>
+        <div class="container-sm desarrollo row">
+            <div class="container-sm col-md trabajos">
+                <h4>Desarrollador Front End </h4>
+                <p>Creación de paginas responsivas que interactúen con el cliente utilizando JavaScript, Html, y Css
+                </p>
+            </div>
+            <div class=" container-sm col-md skills">
+                <h4>Habilidades</h4>
+                <p>Mis primeros pasos fueron en YouTube buscado que es lo que tenia que aprender me centre en lo básico
+                    para
+                    ir avanzando y desarrollar mis habilidades duras y blandas, asi comprender como funciona el mundo de
+                    la
+                    programación</p>
+                <ul>
+                    <li>
+                        <p>Html</p>
+                    </li>
+                    <li>
+                        <p>Css</p>
+                    </li>
+                    <li>
+                        <p>Sass</p>
+                    </li>
+                    <li>
+                        <p>JavaScript</p>
+                    </li>
+                    <li>
+                        <p>Git</p>
+                    </li>
+                    <li>
+                        <p>React</p>
+                    </li>
+                    <li>
+                        <p>typescript</p>
+                    </li>
+                    <li>
+                        <p>Sql</p>
+                    </li>
+                    <li>
+                        <p>node.js</p>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div class=" container-sm experiencia">
@@ -119,60 +143,57 @@
             <ul>
                 <li>
                     Apasionado por aprender y comprometido con la mejora continua
-                    aprendí y me adapte rápidamente a nuevas tecnologías y aplicaciones de software 
+                    aprendí y me adapte rápidamente a nuevas tecnologías y aplicaciones de software
                 </li>
                 <li>
-                    Trabajo bien en equipo brindando apoyo y orientando 
+                    Trabajo bien en equipo brindando apoyo y orientando
                     hábil para trabajar de forma independiente y colaborativa en un ambiente de equipo
                 </li>
                 <li>
-                    implemente sistemas de control de versiones para una colaboración efectiva entre los miembros del equipo manteniendo la integridad del código
+                    implemente sistemas de control de versiones para una colaboración efectiva entre los miembros
+                    del
+                    equipo manteniendo la integridad del código
                 </li>
             </ul>
-            
-            
-            
-
             <!-- proyectos Realizados y proyectos en procesos de creación -->
         </div>
-
-        <div class=" container-sm portafolio">
+        <div class=" container-sm portafolio col">
             <h4>Portafolio</h4>
-            <div class="container-sm box_portafolio row" >
-                <div class="paginas-web">
+            <div class="container-sm box_portafolio row">
+                <div class="paginas-web col-md">
                     <h5>Paginas web</h5>
-                <div class="col">
-                    <img src="media/img/1.png" alt="imagen del la pagina web Granja Delicias">
-                    <div class="content">
-                        <h3>Granja Delicias</h3>
-                        <p>Pagina E-Commerce rubro carnicería </p>
-                        <p>herramientas</p>
-                        <div class="herramientas">
-                            <ul>
-                                <li>Html</li>
-                                <li>Css</li>
-                                <li>Sass</li>
-                            </ul>
+                    <div class="col">
+                        <img src="media/img/1.png" alt="imagen del la pagina web Granja Delicias">
+                        <div class="content">
+                            <h3>Granja Delicias</h3>
+                            <p>Pagina E-Commerce rubro carnicería </p>
+                            <p>herramientas</p>
+                            <div class="herramientas">
+                                <ul>
+                                    <li>Html</li>
+                                    <li>Css</li>
+                                    <li>Sass</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="media/img/1.png" alt="imagen del la pagina web Granja Delicias">
+                        <div class="content">
+                            <h3>Componentes PC</h3>
+                            <p>Pagina E-Commerce rubro Computación</p>
+                            <p>herramientas</p>
+                            <div class="herramientas">
+                                <ul>
+                                    <li>Html</li>
+                                    <li>Css</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <img src="media/img/1.png" alt="imagen del la pagina web Granja Delicias">
-                    <div class="content">
-                        <h3>Componentes PC</h3>
-                        <p>Pagina E-Commerce rubro Computación</p>
-                        <p>herramientas</p>
-                        <div class="herramientas">
-                            <ul>
-                                <li>Html</li>
-                                <li>Css</li>
-                                <li>JavaScript</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                <div class="programacion-javascript">
+                <div class="programacion-javascript col-md">
                     <h5>Programas con JavaScript</h5>
                     <div class="col">
                         <img src="" alt="">
@@ -182,7 +203,7 @@
                     </div>
 
                 </div>
-                
+
 
 
 
@@ -221,4 +242,5 @@
     <script src="bootstrap-5.3.2-dist/js/bootstrap.js"></script>
     <script src="index.js"></script>
 </body>
+
 </html>
