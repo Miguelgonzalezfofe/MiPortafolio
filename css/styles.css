@@ -123,18 +123,22 @@ main .img_presentacion img {
   border-radius: 10px;
   box-shadow: 1px 1px 9px;
 }
+main img {
+  width: 100%;
+  height: 150px;
+}
 main .sobre_Mi {
   padding: 10px;
 }
-main .sobre_Mi {
-  height: auto;
-}
-main .sobre_Mi h4 {
+main h4 {
   font-size: 20px;
   padding-left: 10px;
   text-shadow: 1px 1px 1px;
   background-color: orange;
   border-radius: 15px;
+}
+main .sobre_Mi {
+  height: auto;
 }
 main .sobre_Mi p {
   font-size: 15px;
