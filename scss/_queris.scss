@@ -47,44 +47,70 @@
 
 @media only screen and (min-width: 768px) {
     main {
-        margin-left: 215px;
+        margin-left: 195px;
+
         .img_presentacion {
             .presentacion {
                 bottom: 45px;
 
-                .nombre {
-                    font-size: 54px;
-                }
 
-                h3 {
-                    font-size: 45px;
-                }
             }
         }
     }
 
     .navegacion {
-        width: 16%;
+        width: 22%;
 
-        .container{
+        .container {
 
-            .enlaces{
-                ul{
-                    
-                    li{
-                        width: 65%;
+            .enlaces {
+                ul {
+
+                    li {
+                        width: 85%;
                     }
                 }
+            }
+        }
+
+    }
+}
+@media only screen and (min-width: 880px) {
+    main {
+        margin-left: 220px;
+
+        .img_presentacion {
+            .presentacion {
+                bottom: 45px;
+
+
+            }
         }
     }
 
-}
+    .navegacion {
+        width: 23%;
+
+        .container {
+
+            .enlaces {
+                ul {
+
+                    li {
+                        width: 85%;
+                    }
+                }
+            }
+        }
+
+    }
 }
 
 
 @media only screen and (min-width: 1024px) {
     main {
-        margin-left: 162px;
+        margin-left: 223px;
+
         .img_presentacion {
             .presentacion {
                 bottom: 110px;
@@ -95,6 +121,192 @@
 
                 h3 {
                     font-size: 56px;
+                }
+            }
+        }
+
+    }
+    .navegacion {
+        width: 20%;
+    
+        .container {
+    
+            .enlaces {
+                ul {
+    
+                    li {
+                        width: 85%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1124px) {
+    main {
+        margin-left: 223px;
+
+        .img_presentacion {
+            .presentacion {
+                bottom: 110px;
+
+                .nombre {
+                    font-size: 74px;
+                }
+
+                h3 {
+                    font-size: 56px;
+                }
+            }
+        }
+
+    }
+    .navegacion {
+        width: 20%;
+
+        .container {
+
+            .enlaces {
+                ul {
+
+                    li {
+                        width: 85%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1220px) {
+    main {
+        margin-left: 293px;
+
+        .img_presentacion {
+            .presentacion {
+                bottom: 110px;
+
+                .nombre {
+                    font-size: 74px;
+                }
+
+                h3 {
+                    font-size: 56px;
+                }
+            }
+        }
+
+    }
+    .navegacion {
+        width: 23%;
+
+        .container {
+
+            .enlaces {
+                ul {
+
+                    li {
+                        width: 85%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1310px) {
+    main {
+        margin-left: 260px;
+
+        .img_presentacion {
+            .presentacion {
+                bottom: 110px;
+
+                .nombre {
+                    font-size: 74px;
+                }
+
+                h3 {
+                    font-size: 56px;
+                }
+            }
+        }
+    }
+    .navegacion {
+        width: 19%;
+        .container {
+
+            .enlaces {
+                ul {
+
+                    li {
+                        width: 85%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    main {
+        margin-left: 265px;
+
+        .img_presentacion {
+            .presentacion {
+                bottom: 110px;
+
+                .nombre {
+                    font-size: 74px;
+                }
+
+                h3 {
+                    font-size: 56px;
+                }
+            }
+        }
+    }
+    .navegacion {
+        width: 18%;
+        .container {
+
+            .enlaces {
+                ul {
+
+                    li {
+                        width: 85%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1530px) {
+    main {
+        margin-left: 290px;
+
+        .img_presentacion {
+            .presentacion {
+                bottom: 110px;
+
+                .nombre {
+                    font-size: 74px;
+                }
+
+                h3 {
+                    font-size: 56px;
+                }
+            }
+        }
+    }
+    .navegacion {
+        width: 18%;
+        .container {
+
+            .enlaces {
+                ul {
+
+                    li {
+                        width: 85%;
+                    }
                 }
             }
         }
