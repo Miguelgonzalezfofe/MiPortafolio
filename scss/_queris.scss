@@ -1,70 +1,102 @@
-@media only screen and (min-width: 300px){
-    .menu{
+@media only screen and (min-width: 300px) {
+    .menu {
         display: none;
     }
 }
-@media only screen and (min-width: 375px){
-    .presentacion{
-        .nombre{
-            font-size: 34px;
-        }
-        h3{
-            font-size: 28px;
-        }
-        h4{
-            font-size: 20px;
-        }
-        p{
-            font-size: 10px;
-        }
-        
-    }
-}
-@media only screen and (min-width: 540px){
-    .presentacion{
-        .nombre{
-        font-size: 45px;
-    }
-    h3{
-        font-size: 34px;
-    }
-    h4{
-        font-size: 29px;
-    }
-    }
-}
-@media only screen and (min-width: 768px){
-    .presentacion{
-        .nombre{
-        font-size: 55px;
-    }
-    h3{
-        font-size: 37px;
-    }
-    h4{
-        font-size: 32px;
-    }
-    }
-    
 
 
+
+@media only screen and (min-width: 375px) {
+    main {
+
+        .img_presentacion {
+            .presentacion {
+                bottom: 20px;
+
+                .nombre {
+                    font-size: 35px;
+                }
+
+                h3 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
 }
-@media only screen and (min-width: 1024px){
-    .menu-icon{
-        display: block;
+
+@media only screen and (min-width: 540px) {
+    main {
+        .img_presentacion {
+            .presentacion {
+                bottom: 30px;
+
+                .nombre {
+                    font-size: 42px;
+                }
+
+                h3 {
+                    font-size: 37px;
+                }
+            }
+        }
     }
-    .menu{
-        display: none;
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    main {
+        margin-left: 215px;
+        .img_presentacion {
+            .presentacion {
+                bottom: 45px;
+
+                .nombre {
+                    font-size: 54px;
+                }
+
+                h3 {
+                    font-size: 45px;
+                }
+            }
+        }
     }
-    .presentacion{
-        .nombre{
-        font-size: 62px;
+
+    .navegacion {
+        width: 16%;
+
+        .container{
+
+            .enlaces{
+                ul{
+                    
+                    li{
+                        width: 65%;
+                    }
+                }
+        }
     }
-    h3{
-        font-size: 40px;
-    }
-    h4{
-        font-size: 36px;
-    }
+
+}
+}
+
+
+@media only screen and (min-width: 1024px) {
+    main {
+        margin-left: 162px;
+        .img_presentacion {
+            .presentacion {
+                bottom: 110px;
+
+                .nombre {
+                    font-size: 74px;
+                }
+
+                h3 {
+                    font-size: 56px;
+                }
+            }
+        }
     }
 }

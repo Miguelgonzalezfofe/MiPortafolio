@@ -113,7 +113,7 @@
 /* MAIN */
 main .presentacion {
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   width: 95%;
   height: auto;
   text-align: center;
@@ -208,56 +208,59 @@ main .portafolio {
   }
 }
 @media only screen and (min-width: 375px) {
-  .presentacion .nombre {
-    font-size: 34px;
+  main .img_presentacion .presentacion {
+    bottom: 20px;
   }
-  .presentacion h3 {
-    font-size: 28px;
+  main .img_presentacion .presentacion .nombre {
+    font-size: 35px;
   }
-  .presentacion h4 {
-    font-size: 20px;
-  }
-  .presentacion p {
-    font-size: 10px;
+  main .img_presentacion .presentacion h3 {
+    font-size: 30px;
   }
 }
 @media only screen and (min-width: 540px) {
-  .presentacion .nombre {
-    font-size: 45px;
+  main .img_presentacion .presentacion {
+    bottom: 30px;
   }
-  .presentacion h3 {
-    font-size: 34px;
+  main .img_presentacion .presentacion .nombre {
+    font-size: 42px;
   }
-  .presentacion h4 {
-    font-size: 29px;
+  main .img_presentacion .presentacion h3 {
+    font-size: 37px;
   }
 }
 @media only screen and (min-width: 768px) {
-  .presentacion .nombre {
-    font-size: 55px;
+  main {
+    margin-left: 215px;
   }
-  .presentacion h3 {
-    font-size: 37px;
+  main .img_presentacion .presentacion {
+    bottom: 45px;
   }
-  .presentacion h4 {
-    font-size: 32px;
+  main .img_presentacion .presentacion .nombre {
+    font-size: 54px;
+  }
+  main .img_presentacion .presentacion h3 {
+    font-size: 45px;
+  }
+  .navegacion {
+    width: 16%;
+  }
+  .navegacion .container .enlaces ul li {
+    width: 65%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  .menu-icon {
-    display: block;
+  main {
+    margin-left: 162px;
   }
-  .menu {
-    display: none;
+  main .img_presentacion .presentacion {
+    bottom: 110px;
   }
-  .presentacion .nombre {
-    font-size: 62px;
+  main .img_presentacion .presentacion .nombre {
+    font-size: 74px;
   }
-  .presentacion h3 {
-    font-size: 40px;
-  }
-  .presentacion h4 {
-    font-size: 36px;
+  main .img_presentacion .presentacion h3 {
+    font-size: 56px;
   }
 }
 
