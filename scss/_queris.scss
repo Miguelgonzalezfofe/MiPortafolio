@@ -45,7 +45,14 @@
 }
 
 
+
 @media only screen and (min-width: 768px) {
+    .menu-icon{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
     main {
         margin-left: 195px;
 
@@ -56,6 +63,7 @@
 
             }
         }
+    
     }
 
     .navegacion {
@@ -74,6 +82,7 @@
         }
 
     }
+
 }
 @media only screen and (min-width: 880px) {
     main {
