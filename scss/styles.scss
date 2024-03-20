@@ -46,12 +46,12 @@
             h3 {
                 margin: 5px;
                 text-shadow: 1px 1px 8px white;
+                color: white;
             }
 
         }
 
         h3 {
-            color: white;
             text-align: center;
         }
 
@@ -87,8 +87,8 @@
 
                     a {
                         text-decoration: none;
-                        color: white;
                         transition: all 0.3s;
+                        color: white;
 
                     }
                 }
@@ -133,7 +133,13 @@
 
 /* MAIN */
 main {
-    background: url("");
+    position: relative;
+    // width: 100%;
+    background-image: url('https://img.freepik.com/vector-premium/resumen-puntos-lineas-conexion-fondo-ciencia-conexion_41981-1595.jpg?w=740');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    background-size: auto;
+    
 
     .presentacion {
         position: absolute;
@@ -163,12 +169,7 @@ main {
         }
     }
 
-    img {
-        width: 100%;
-        height: 150px;
-    }
-
-
+    
     h4 {
         text-align: center;
         padding: 5px 12px;
@@ -225,15 +226,15 @@ main {
                     font-size: 20px;
                     font-weight: 500;
 
-                    .content{
+                    .content {
                         display: flex;
                         flex-direction: row;
                         justify-content: space-between;
-                    
-                    p {
-                        margin: 0;
+
+                        p {
+                            margin: 0;
+                        }
                     }
-                }
 
                     .barra {
                         width: 100%;
@@ -290,7 +291,7 @@ main {
     .portafolio {
         margin: auto;
 
-        .col{
+        .col {
             margin: auto;
             margin-bottom: 10px;
             width: 320px;
@@ -304,20 +305,21 @@ main {
             justify-content: center;
             align-items: center;
 
-            img{
+            img {
                 width: 100%;
                 height: 180px;
                 border-radius: 10px;
             }
-            .content{
+
+            .content {
                 padding: 5px;
                 width: 100%;
             }
         }
     }
 
-    .contacto{
-        ul{
+    .contacto {
+        ul {
             list-style-type: none;
             display: flex;
             flex-direction: row;
@@ -325,7 +327,8 @@ main {
             justify-content: center;
         }
     }
-    footer{
+
+    footer {
         display: flex;
         flex-direction: column;
         align-items: center;
