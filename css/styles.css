@@ -211,23 +211,27 @@ main .exp_front_end {
 main .exp_front_end .content-Certificados {
   padding: 5px;
   width: 100%;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: normal;
   gap: 11px;
 }
-main .exp_front_end .content-Certificados div {
-  min-width: 200px;
-  height: 120px;
+main .exp_front_end .content-Certificados .certificado {
+  width: 250px;
+  height: au;
   border: 1px solid;
   border-radius: 5px;
   text-align: center;
   transition: all 0.4s;
 }
-main .exp_front_end .content-Certificados div:hover {
+main .exp_front_end .content-Certificados .certificado:hover {
   scale: 1.09;
   transition: all 0.4s;
+}
+main .exp_front_end .content-Certificados .certificado img {
+  width: 100%;
 }
 main .portafolio h5 {
   text-align: center;

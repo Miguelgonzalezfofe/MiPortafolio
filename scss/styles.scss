@@ -263,17 +263,19 @@ main {
         .experiencia {}
 
         .content-Certificados {
+
             padding: 5px;
             width: 100%;
+            height: auto;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-content: normal;
             gap: 11px;
 
-            div {
-                min-width: 200px;
-                height: 120px;
+            .certificado {
+                width: 250px;
+                height: au;
                 border: 1px solid;
                 border-radius: 5px;
                 text-align: center;
@@ -284,6 +286,9 @@ main {
                     scale: 1.09;
                     transition: all 0.4s;
 
+                }
+                img{
+                    width: 100%;
                 }
             }
         }
