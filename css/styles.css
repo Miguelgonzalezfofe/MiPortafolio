@@ -266,6 +266,9 @@ main .portafolio .box_portafolio .paginas-web .card .content, main .portafolio .
   padding: 5px;
   width: 100%;
 }
+main .portafolio .box_portafolio .paginas-web .card .content .herramientas, main .portafolio .box_portafolio .programacion-javascript .card .content .herramientas {
+  display: flex;
+}
 main .contacto ul {
   width: 100%;
   list-style-type: none;
